@@ -7,3 +7,7 @@ test('should 1 / 2 to equal 0.5', () => {
 test('should 1 / 0 to equal infinity', () => {
   expect(div(1,0)).toBe(Infinity);
 })
+
+test('should 999 / 0 to equal infinity', () => {
+  expect(div(999,0)).toBe(Infinity);
+})
